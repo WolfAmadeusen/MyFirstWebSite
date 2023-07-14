@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d3d3;
+}
+
+.wripper__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #e9e4e4;
+}
+
+.wripper__menu a {
+    font-size: 18px;
+    margin: 5px;
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.wripper__menu a:hover {
+    text-decoration: underline;
+}
+
+.body {
+    background-color: #fff;
+    box-shadow: 10 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 100%;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.section__img{
+    width: 650px;
+    height:300px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.profile__photo {
+    flex: 1;
+    padding-left: 15px;
+}
+
+.profile__photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.profile__info>a {
+    text-decoration: none;
+    color: #000;
+}
+
+.profile__info>a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.text {
+    resize: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.text:focus, .body{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.b {
+    font-size: 20px;
+    padding: 4px 4px 4px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.submit{
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+    padding: 7px;
+}
+
+.close{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+
+.close:hover{
+    text-decoration: underline;
+    color: #ec0c0c;
+}

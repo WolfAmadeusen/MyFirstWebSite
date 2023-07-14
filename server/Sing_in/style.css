@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    height: 400px;
+    width: 500px;
+    background-color: #ffff;
+    border: #ffff 2px solid;
+    border-radius: 5px;
+    position: relative;
+}
+
+body {
+    background: url(../Sing_up/image/image.jpg) no-repeat;
+    -moz-background-size: 100%;
+    /* Firefox 3.6+ */
+    -webkit-background-size: 100%;
+    /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+    /* Opera 9.6+ */
+    background-size: 100%;
+    /* Современные браузеры */
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.i {
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: #5a5151;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #000;
+}
