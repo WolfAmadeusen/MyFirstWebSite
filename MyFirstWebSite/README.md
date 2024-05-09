@@ -9,5 +9,5 @@
 
 ### Stack
 + PHP
-+ SQLMyAdmin
++ SQL
 + HTML/CSS/JS
